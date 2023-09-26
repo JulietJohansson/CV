@@ -15,7 +15,6 @@ header {
     padding: 5px;
     font-size: 1rem;
     text-align: center;
-    background-image: url(images/stjarna.jpeg);
 }
 
 main {
@@ -23,108 +22,98 @@ main {
     margin: auto;
     margin-top: 120px;
     background-color: white;
-    
-}
-
-.box {
-    display: flex;
-}
-
-.item {
-    width: 250px;
-    height: 150px;
-    border: 1px solid black;
-    background-color: rgb(189, 189, 170);
-    padding: 5px;
-    margin: 10px;
-    box-shadow: 2px 2px 5px gray;
-}
-
-.item img {
-    max-width: 100%;
-    max-height: 100%;
-    float: left;
-    margin-right: 10px;
 }
 
 h3 {
     font-size: 30px;
 }
 
-a {
-    text-decoration: none;
+.imagebox {
+  margin-bottom: 70px;
+}
+
+.moodboard img {
+  width: 33%;
 }
    
-   input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid rgb(189, 189, 170);
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px; 
-    margin-bottom: 16px;
-    resize: vertical
-  }
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(202, 143, 152);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical
+}
   
-  input[type=submit] {
-    background-color: rgb(202, 143, 152);
-    color: white;
-    padding: 12px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+input[type=submit] {
+  background-color: rgb(236, 196, 202);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
   
-  input[type=submit]:hover {
-    background-color: rgb(189, 189, 170);
-  }
+input[type=submit]:hover {
+  background-color: rgb(202, 143, 152);
+}
   
-  .form {
-    border-radius: 5px;
-    background-color: white;
-    padding: 20px;
-  }
+.form {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
 
-  .wrapper {
-    margin: 150px auto;
-    width: 90%;
-    margin-bottom: 70px;
-  }
+.wrapper {
+  margin: 150px auto;
+  width: 90%;
+  margin-bottom: 70px;
+}
 
-  .wrapper img {
-    float:left;
-    border: 2px solid black;
-    border-radius: 20px;
-    margin-right: 25px;
-    width: 50%;
-  }
+.wrapper img {
+  float:left;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-right: 25px;
+  width: 50%;
+}
 
-  .text-box h2 {
-    font-size: 80px;
-    font-family:Georgia, 'Times New Roman', Times, serif
-  }
+.wrapper ul {
+  list-style-type: circle
+}
 
-  .text-box p {
-    font-size: 20px;
-    font-family: 'Josefin Slab', serif;
-  }
+.text-box h2 {
+  font-size: 80px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
 
-  .text-box h6 {
-    font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif
-  }
+.text-box p {
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
 
-  .text-box ul {
-    font-size: 20px;
-    font-family: 'Josefin Slab', serif;
-  }
+.text-box h6 {
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
 
-  footer {
-    width: 100%;
-    background-color: rgb(236, 196, 202);
-    position:absolute bottom;
-    height: 5rem;
-    text-align: center;
-    padding: 5px;
-    bottom: 0%;
-    margin-bottom: 0px;
-  }
+.text-box ul {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(236, 196, 202);
+  position:absolute bottom;
+  height: 5rem;
+  text-align: center;
+  padding: 5px;
+  bottom: 0%;
+  margin-bottom: 0px;
+}
